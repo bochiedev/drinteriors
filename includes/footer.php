@@ -39,9 +39,7 @@
                 <div class="follow">
                     <a class="item" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
                     <a class="item" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a class="item" href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
                     <a class="item" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a class="item" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
                 </div>
             </div>
         </div>

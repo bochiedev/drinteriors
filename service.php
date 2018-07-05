@@ -1,171 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from unionagency.one/bristol/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 May 2018 11:34:27 GMT -->
+<!-- Mirrored from unionagency.one/bristol/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 May 2018 11:32:28 GMT -->
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
-     <link href="css/jquery-ui.css" rel="stylesheet" />
+    <link href="css/jquery-ui.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="img/favicon.ico" rel="shortcut icon" />
     <link href="css/sumoselect.css" rel="stylesheet" />
     <link href="../../fonts.googleapis.com/css1233.css?family=Hind:300,500,600%7CTitillium+Web%7CCabin%7COswald:700" rel="stylesheet">
-    <title>Bristol</title>
+    <title>DRINTERIORS | Services</title>
 </head>
 <body>
-    <div class="is-mobile"></div>
-    <!-- LOADER -->
-        <div id="loader-wrapper">
-            <div class="loader"></div>
-        </div>
-    <!--end LOADER -->
-
-    <!-- HEADER -->
-    <header class="header-style-2">
-        <div class="wide-container-fluid">
-            <div class="row">
-                <div class="col-xs-2">
-                    <a class="logo" href="index-2.html"><img src="img/logo.png" alt="" /></a>  
-                </div>
-                <div class="col-xs-10 text-right">
-
-                    <ul class="header-menu">
-                        <li><a href="index-2.html"><span>Home</span></a></li>
-                        <li><a href="about.html"><span>About us</span></a></li>
-                        <li><a href="service.html"><span>Services</span></a></li>
-                        <li>
-                            <a href="portfolio.html"><span>Portfolio</span></a>
-                            <span></span>
-                            <ul>
-                                <li><a href="portfolio.html">Portfolio #1</a></li>
-                                <li><a href="portfolio_full.html">Portfolio #2</a></li>
-                                <li><a href="detail.html">Portfolio detail</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="blog.html"><span>Blog</span></a>
-                            <span></span>
-                            <ul>
-                                <li><a href="post.html">Blog post</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="shop.html"><span>Products</span></a>
-                            <span></span>
-                            <ul>
-                                <li><a href="shop.html">Products #1</a></li>
-                                <li><a href="shop2.html">Products #2</a></li>
-                                <li><a href="shop3.html">Products #3</a></li>
-                                <li><a href="shopdetail.html">Detail products</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="checkout.html"><span>Checkout</span></a></li>
-                        <li class="active"><a href="contact.html"><span>Contact us</span></a></li>
-                    </ul>
-
-                    <!-- basket -->
-                    <div class="basket open-popup" data-rel="1">
-                        <div class="img-wrapper">
-                            <span>1</span>
-                        </div>
-                        <br>
-                        <p>total: <span>149.95&#36;</span></p>
-                    </div>
-                    <!-- login -->
-                    <div class="login-wrapper">
-                        <div class="login hover-1 open-popup" data-rel="2">Log in &#47; Sing up</div>
-                    </div>     
-
-                    <div class="hamburger-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                     <div class="hamburger-icon-2">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- HEADER -->
-
-    <!-- OVERLAY-MENU -->
-    <div class="overlay-wrapper">
-        <div class="overlay-animation"></div>
-        <div class="flex">
-        <div class="flex-in">
-        <div class="overlay-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="btn-close"><span></span><span></span></div>
-                    <div class="col-md-2 col-md-offset-5">
-                        <!-- login -->
-                        <div class="login-wrapper">
-                            <div class="login hover-1 open-popup" data-rel="2">Log in &#47; Sing up</div>
-                        </div> 
-                        <!-- basket -->
-                        <div class="basket open-popup" data-rel="1">
-                            <div class="img-wrapper">
-                                <img src="img/shop/basket-2.png" alt="">
-                                <span>1</span>
-                            </div>
-                            <br>
-                            <p>total: <span>149.95&#36;</span></p>
-                        </div>
-                        <ul>
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="service.html">Services</a></li>
-                            <li class="dropdown-plus">
-                                <a href="portfolio.html">Portfolio</a>
-                                <span></span>
-                                <ul>
-                                    <li><a href="portfolio.html">Portfolio #1</a></li>
-                                    <li><a href="portfolio_full.html">Portfolio #2</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-plus">
-                                <a href="blog.html">Blog</a>
-                                <span></span>
-                                <ul>
-                                    <li><a href="post.html">Blog post</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-plus">
-                                <a href="shop.html">Products</a>
-                                <span></span>
-                                <ul>
-                                    <li><a href="shop.html">Products #1</a></li>
-                                    <li><a href="shop2.html">Products #2</a></li>
-                                    <li><a href="shop3.html">Products #3</a></li>
-                                    <li><a href="shopdetail.html">Detail products</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li class="active"><a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </div>
-    <!-- end OVERLAY-MENU -->
-
+  <?php
+  include_once "includes/header.php";
+  ?>
     <!-- content -->
     <div id="content">
-    
+
           <div class="full-height-banner">
             <div class="clip">
-                <div class="bg fix" style="background-image: url(img/contact_bg.jpg);">
+                <div class="bg fix" style="background-image: url(img/service_bg.jpg);">
                     <div class="bg-layer-5"></div>
                 </div>
             </div>
@@ -175,7 +35,7 @@
                         <div class="col-md-6 col-md-offset-3">
                             <div class="row text-center">
                                 <div class="col-xs-12">
-                                   <h2 class="h1 white sm-sepp">Contact us</h2> 
+                                   <h2 class="h1 white sm-sepp">Our services</h2>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="empty-space h20-xs"></div>
@@ -183,170 +43,171 @@
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum id metus ac tempus something posuere</p>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>    
+            </div>
           </div>
-     
+
         <section class="section">
             <div class="container">
                <div class="empty-space h40-xs h100-md"></div>
-           <div class="empty-space h20-xs"></div>
-            <div class="row text-center">
-                <div class="col-xs-12">
-                   <h2 class="h2">GET IN TOUCH</h2> 
-                </div>
-                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-                    <div class="empty-space h20-xs"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum id metus ac tempus something posuere</p>
-                </div>
-            </div>
-            <div class="empty-space h30-xs h65-md"></div>
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="project-info">
-                       <h4 class="h6">Address</h4> 
-                       <div class="empty-space h20-xs"></div>
-                       <span>New York, 345</span> 
-                       <span>Park Ave NY 10154, USA</span> 
-                       <div class="empty-space h60-md h30-xs"></div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="project-info">
-                       <h4 class="h6">Phone</h4> 
-                       <div class="empty-space h20-xs"></div>
-                       <a href="tel:+380 00 876 35 44">+380 00 876 35 44</a>
-                       <a href="tel:+380 00 876 66 55">+380 00 876 66 55</a>
-                       <div class="empty-space h60-md h30-xs"></div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="project-info">
-                       <h4 class="h6">Email</h4> 
-                       <div class="empty-space h20-xs"></div>
-                       <a href="mailto:myfrilanceremail@email.com">myfrilanceremail@email.com</a>
-                       <a href="mailto:mysecondemail@email.com">mysecondemail@email.com</a>
-                       <div class="empty-space h60-md h30-xs"></div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="project-info">
-                       <h4 class="h6">Follow us</h4> 
-                       <div class="empty-space h20-xs"></div>
-                       <div class="follow">
-                            <a class="item" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a class="item" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a class="item" href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-                            <a class="item" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a class="item" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-form-wrapper shop"> 
-                <h4 class="h4 text-center">Have a question?</h4>
-                <div class="empty-space h30-xs"></div>
-                <form action="#">
-                   <div class="row">
-                      <div class="col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
-                         <div class="input-wrapper">
-                            <div class="input-style">
-                                <input id="inputName" name="name" type="text" class="input" required>
-                                <label for="inputName">Name</label>
-                            </div>
-                            <div class="input-style">
-                                <input id="inputEmail" name="email" type="email" class="input" required>
-                                <label for="inputEmail">E-mail</label>
-                            </div>
-                            <div class="input-style full-w">
-                                <input id="inputSubject" name="subject" type="text" class="input" required>
-                                <label for="inputSubject">Subject</label>
-                            </div>
-                            <div class="input-style textarea">
-                                <textarea id="inputMessage" name="message" class="input" required></textarea>
-                                <label for="inputMessage">Review</label>
-                            </div>
-                         </div> 
-                      </div> 
-                   </div>
-                   <div class="text-center">
-                       <div class="btn-wrap"><a href="#" class="btn-2"><input type="submit" value=""><span>Add your review</span></a></div>
-                   </div> 
-                </form>
-            </div>
-            </div>
-            <div class="empty-space h40-xs h100-md"></div> 
-            <div class="empty-space h20-xs"></div>
-        </section>
-         
-        <div class="map">     
-        <div id="map-canvas" class="map-item" data-lat="40.712332" data-lng="-74.009596" data-zoom="10" data-style="style-1" data-marker="img/marker.png"></div> 
-            <div class="addresses-block">
-                <a data-lat="40.712332" data-lng="-74.009596" data-string="1. Here is some address or email or phone or something else..."></a>
-            </div>
-        </div>                  
-
-        <!-- footer -->
-        <footer class="footer-black">
-            <div class="container small-sm">
+               <div class="empty-space h20-xs"></div>
                 <div class="row">
-                    <div class="col-md-3">
-                        <a href="index-2.html"><img src="img/logo-white.png" alt=""></a>
-                        <div class="empty-space h10-xs"></div>
-                        <p>Lorem ipsum dolor sit amet, cset tur adipiscingerat rutrum to the next side</p>
+                  <div class="col-md-10 col-md-offset-1">
+                   <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                       <h2 class="h4 lh-36">WE CAN PROPOSE OUR SPESIAL SEVICES</h2>
+                       <div class="empty-space h30-xs h40-sm h0-md h0-lg"></div>
                     </div>
-                    <div class="empty-space h20-xs h0-md"></div>
-                    <div class="col-md-2">
-                        <h6 class="h7">Address</h6>
-                        <div class="empty-space h10-xs"></div>
-                        <ul>
-                            <li>
-                                <a href="https://www.google.com.ua/maps/@40.7573849,-73.9721243,19z">319 Clematis St.Suite, 100 WPB, FL 33401</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="empty-space h20-xs h0-md"></div>
-                    <div class="col-md-2 col-md-offset-1">
-                        <h6 class="h7">Contact us</h6>
-                        <div class="empty-space h10-xs"></div>
-                        <ul>
-                            <li>
-                                <a href="tel:+380982367536">tel. +38 098 236 75 36</a>
-                            </li>
-                            <li>
-                                <a href="mailto:info@bristol.com">e-mail info@bristol.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="empty-space h20-xs h0-md"></div>
-                    <div class="col-md-3 col-md-offset-1">
-                        <h6 class="h7">Follow us</h6>
-                        <div class="empty-space h15-xs h25-md"></div>
-                        <div class="follow">
-                            <a class="item" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a class="item" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a class="item" href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-                            <a class="item" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a class="item" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="simple-text sm">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ullam distinctio nisi, nemo, non architecto consectetur. Vitae, voluptatibus, animi modi voluptas ducimus perferendis natus ex exercitationem esse, ab ut quasi efficitur posuere ante. Integer in porttitor</p>
                         </div>
                     </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="empty-space h25-xs"></div>
+                <div class="empty-space h40-xs h100-md"></div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="copyright">
-                            &copy; 2017 All rights reserved. Development with <span class="fa fa-heart"></span> by <a href="https://themeforest.net/user/unionagency" target="blank">UnionAgency.</a>
+                        <div class="swiper-container pagination-on-slider" data-speed="1000" data-parallax="1" data-pagination-rel="1" data-breakpoints="1" data-slides-per-view="1" data-xs-slides="1" data-sm-slides="1" data-md-slides="1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                   <div class="service-slider-item">
+                                    <div class="clip">
+                                        <div class="bg" style="background-image: url(img/service_slider_img_1.jpg);">
+                                            <div class="bg-layer-5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="vertical-align full decsription">
+                                        <article class="text-center">
+                                            <h2 class="h2 bold white" data-swiper-parallax="-800"><b>349</b></h2>
+                                            <div class="empty-space h20-xs"></div>
+                                            <div class="white-70">
+                                                <p data-swiper-parallax="-600">Curabitur ultricies semper eleifend. Pellentesque molestie purus non something else not tempus bibendum mattis making something</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="clear"></div>
+                                   </div>
+                                </div>
+                                <div class="swiper-slide">
+                                   <div class="service-slider-item">
+                                    <div class="clip">
+                                        <div class="bg" style="background-image: url(img/service_slider_img_2.jpg);">
+                                            <div class="bg-layer-5"></div>
+                                        </div>
+                                    </div>
+                                    <div class="vertical-align full decsription">
+                                        <article class="text-center">
+                                            <h2 class="h2 bold white" data-swiper-parallax="-800"><b>749</b></h2>
+                                            <div class="empty-space h20-xs"></div>
+                                            <div class="white-70">
+                                                <p data-swiper-parallax="-600">Curabitur ultricies semper eleifend. Pellentesque molestie purus non something else not tempus bibendum mattis making something</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="clear"></div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination swiper-pagination-white"></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- footer -->
+        </section>
 
+
+        <section class="section">
+            <div class="empty-space h40-xs h100-md"></div>
+            <div class="empty-space h20-xs"></div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12">
+                       <h2 class="h2">What we do</h2>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                        <div class="empty-space h20-xs"></div>
+                        <p>Lorem ipsum dolor amet, consectetur adipiscing elit elemen tum iesded metus ac tempus mauris something volutpat</p>
+                    </div>
+                </div>
+                <div class="empty-space h30-xs h60-md"></div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <a href="#" class="img-hover-1"><img class="img" src="img/service_item_img_1.jpg" alt=""></a>
+                        <div class="empty-space h20-xs h25-md"></div>
+                        <article class="small-sm">
+                            <a href="#"><h6 class="h6 hover-1">ALIQUAM LECTUS SEM, ULLAMCORPER</h6></a>
+                            <div class="empty-space h15-xs"></div>
+                            <p>Nullam eget pulvinar lacus, porttitor hendrerit mauris. Morbi facilisis nulla vel urna scelerisque</p>
+                            <div class="empty-space h30-xs h45-md"></div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <a href="#" class="img-hover-1"><img class="img" src="img/service_item_img_2.jpg" alt=""></a>
+                        <div class="empty-space h20-xs h25-md"></div>
+                        <article class="small-sm">
+                            <a href="#"><h6 class="h6 hover-1">ALIQUAM LECTUS SEM, ULLAMCORPER</h6></a>
+                            <div class="empty-space h15-xs"></div>
+                            <p>Nullam eget pulvinar lacus, porttitor hendrerit mauris. Morbi facilisis nulla vel urna scelerisque</p>
+                            <div class="empty-space h30-xs h45-md"></div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <a href="#" class="img-hover-1"><img class="img" src="img/service_item_img_3.jpg" alt=""></a>
+                        <div class="empty-space h20-xs h25-md"></div>
+                        <article class="small-sm">
+                            <a href="#"><h6 class="h6 hover-1">ALIQUAM LECTUS SEM, ULLAMCORPER</h6></a>
+                            <div class="empty-space h15-xs"></div>
+                            <p>Nullam eget pulvinar lacus, porttitor hendrerit mauris. Morbi facilisis nulla vel urna scelerisque</p>
+                            <div class="empty-space h30-xs h45-md"></div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <a href="#" class="img-hover-1"><img class="img" src="img/service_item_img_4.jpg" alt=""></a>
+                        <div class="empty-space h20-xs h25-md"></div>
+                        <article class="small-sm">
+                            <a href="#"><h6 class="h6 hover-1">ALIQUAM LECTUS SEM, ULLAMCORPER</h6></a>
+                            <div class="empty-space h15-xs"></div>
+                            <p>Nullam eget pulvinar lacus, porttitor hendrerit mauris. Morbi facilisis nulla vel urna scelerisque</p>
+                            <div class="empty-space h30-xs h45-md"></div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <a href="#" class="img-hover-1"><img class="img" src="img/service_item_img_5.jpg" alt=""></a>
+                        <div class="empty-space h20-xs h25-md"></div>
+                        <article class="small-sm">
+                            <a href="#"><h6 class="h6 hover-1">ALIQUAM LECTUS SEM, ULLAMCORPER</h6></a>
+                            <div class="empty-space h15-xs"></div>
+                            <p>Nullam eget pulvinar lacus, porttitor hendrerit mauris. Morbi facilisis nulla vel urna scelerisque</p>
+                            <div class="empty-space h30-xs h45-md"></div>
+                        </article>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                        <a href="#" class="img-hover-1"><img class="img" src="img/service_item_img_6.jpg" alt=""></a>
+                        <div class="empty-space h20-xs h25-md"></div>
+                        <article class="small-sm">
+                            <a href="#"><h6 class="h6 hover-1">ALIQUAM LECTUS SEM, ULLAMCORPER</h6></a>
+                            <div class="empty-space h15-xs"></div>
+                            <p>Nullam eget pulvinar lacus, porttitor hendrerit mauris. Morbi facilisis nulla vel urna scelerisque</p>
+                            <div class="empty-space h30-xs h45-md"></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="empty-space h10-xs h55-md"></div>
+            <div class="empty-space h20-xs"></div>
+        </section>
+
+
+        <!-- footer -->
+        <?php
+        include "includes/footer.php";
+        ?>
+        <!-- footer -->
     </div>
     <!-- content -->
 
@@ -444,7 +305,7 @@
                        <div class="col-md-12 text-center">
                             <div class="empty-space h30-xs"></div>
                            <a href="#" class="btn-sing-up open-popup" data-rel="3">Sign up now</a>
-                       </div> 
+                       </div>
                     </div>
                 </div>
                 <div class="button-close"></div>
@@ -583,7 +444,9 @@
     <script src="js/jquery.sumoselect.min.js"></script>
     <script src="js/global.js"></script>
 
+
+
 </body>
 
-<!-- Mirrored from unionagency.one/bristol/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 May 2018 11:34:29 GMT -->
+<!-- Mirrored from unionagency.one/bristol/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 May 2018 11:32:57 GMT -->
 </html>

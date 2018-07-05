@@ -14,172 +14,22 @@
     <link href="img/favicon.ico" rel="shortcut icon" />
     <link href="css/sumoselect.css" rel="stylesheet" />
     <link href="../../fonts.googleapis.com/css1233.css?family=Hind:300,500,600%7CTitillium+Web%7CCabin%7COswald:700" rel="stylesheet">
-    <title>Bristol</title>
+    <title>DRINTERIORS | Portfolio Detail</title>
 </head>
 <body>
-    <div class="is-mobile"></div>
-    <!-- LOADER -->
-        <div id="loader-wrapper">
-            <div class="loader"></div>
-        </div>
-    <!--end LOADER -->
-
-    <!-- HEADER -->
-    <header class="header-style-2">
-        <div class="wide-container-fluid">
-            <div class="row">
-                <div class="col-xs-2">
-                    <a class="logo" href="index-2.html"><img src="img/logo.png" alt="" /></a>  
-                </div>
-                <div class="col-xs-10 text-right">
-
-                    <ul class="header-menu">
-                        <li><a href="index-2.html"><span>Home</span></a></li>
-                        <li><a href="about.html"><span>About us</span></a></li>
-                        <li><a href="service.html"><span>Services</span></a></li>
-                        <li class="active">
-                            <a href="portfolio.html"><span>Portfolio</span></a>
-                            <span></span>
-                            <ul>
-                                <li><a href="portfolio.html">Portfolio #1</a></li>
-                                <li><a href="portfolio_full.html">Portfolio #2</a></li>
-                                <li><a href="detail.html">Portfolio detail</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="blog.html"><span>Blog</span></a>
-                            <span></span>
-                            <ul>
-                                <li><a href="post.html">Blog post</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="shop.html"><span>Products</span></a>
-                            <span></span>
-                            <ul>
-                                <li><a href="shop.html">Products #1</a></li>
-                                <li><a href="shop2.html">Products #2</a></li>
-                                <li><a href="shop3.html">Products #3</a></li>
-                                <li><a href="shopdetail.html">Detail products</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="checkout.html"><span>Checkout</span></a></li>
-                        <li><a href="contact.html"><span>Contact us</span></a></li>
-                    </ul>
-
-                    <!-- basket -->
-                    <div class="basket open-popup" data-rel="1">
-                        <div class="img-wrapper">
-                            <span>1</span>
-                        </div>
-                        <br>
-                        <p>total: <span>149.95&#36;</span></p>
-                    </div>
-                    <!-- login -->
-                    <div class="login-wrapper">
-                        <div class="login hover-1 open-popup" data-rel="2">Log in &#47; Sing up</div>
-                    </div>     
-
-                    <div class="hamburger-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                     <div class="hamburger-icon-2">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- HEADER -->
-
-    <!-- OVERLAY-MENU -->
-    <div class="overlay-wrapper">
-        <div class="overlay-animation"></div>
-        <div class="flex">
-        <div class="flex-in">
-        <div class="overlay-menu">
-            <div class="container">
-                <div class="row">
-                    <div class="btn-close"><span></span><span></span></div>
-                    <div class="col-md-2 col-md-offset-5">
-                        <!-- login -->
-                        <div class="login-wrapper">
-                            <div class="login hover-1 open-popup" data-rel="2">Log in &#47; Sing up</div>
-                        </div> 
-                        <!-- basket -->
-                        <div class="basket open-popup" data-rel="1">
-                            <div class="img-wrapper">
-                                <img src="img/shop/basket-2.png" alt="">
-                                <span>1</span>
-                            </div>
-                            <br>
-                            <p>total: <span>149.95&#36;</span></p>
-                        </div>
-                        <ul>
-                            <li><a href="index-2.html">Home</a></li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="service.html">Services</a></li>
-                            <li class="dropdown-plus active">
-                                <a href="portfolio.html">Portfolio</a>
-                                <span></span>
-                                <ul>
-                                    <li><a href="portfolio.html">Portfolio #1</a></li>
-                                    <li><a href="portfolio_full.html">Portfolio #2</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-plus">
-                                <a href="blog.html">Blog</a>
-                                <span></span>
-                                <ul>
-                                    <li><a href="post.html">Blog post</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown-plus">
-                                <a href="shop.html">Products</a>
-                                <span></span>
-                                <ul>
-                                    <li><a href="shop.html">Products #1</a></li>
-                                    <li><a href="shop2.html">Products #2</a></li>
-                                    <li><a href="shop3.html">Products #3</a></li>
-                                    <li><a href="shopdetail.html">Detail products</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </div>
-    <!-- end OVERLAY-MENU -->
-    
-    <!-- OVERLAY-VIDEO -->
-     <div class="overlay-wrapper height-min video">
-        <div class="overlay-animation"></div>
-        <div class="iframe-wrapper">
-            <iframe class="full-size" src="img/transparent.png" allowfullscreen></iframe>
-        </div>
-        <div class="btn-close"><span></span><span></span></div>
-    </div>
-    <!-- end OVERLAY-VIDEO -->
-
+  <?php
+  include_once "includes/header.php";
+  ?>
     <!-- content -->
     <div id="content">
-     
+
       <section class="section custom-container">
         <div class="container">
            <div class="empty-space h90-xs h100-md"></div>
            <div class="empty-space h0-xs h80-md"></div>
             <div class="row text-center">
                 <div class="col-xs-12">
-                   <h2 class="h1-2">Project title here.</h2> 
+                   <h2 class="h1-2">Project title here.</h2>
                 </div>
                 <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
                     <div class="empty-space h20-xs"></div>
@@ -190,23 +40,23 @@
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="project-info">
-                       <h4 class="h5">Category</h4> 
+                       <h4 class="h5">Category</h4>
                        <div class="empty-space h10-xs"></div>
-                       <span>Advertising</span> 
+                       <span>Advertising</span>
                        <div class="empty-space h60-md h30-xs"></div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="project-info">
-                       <h4 class="h5">Client</h4> 
+                       <h4 class="h5">Client</h4>
                        <div class="empty-space h10-xs"></div>
-                       <span>john doe</span> 
+                       <span>john doe</span>
                        <div class="empty-space h60-md h30-xs"></div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="project-info">
-                       <h4 class="h5">Website</h4> 
+                       <h4 class="h5">Website</h4>
                        <div class="empty-space h10-xs"></div>
                        <a href="#">http://bristol.com/project</a>
                        <div class="empty-space h60-md h30-xs"></div>
@@ -214,9 +64,9 @@
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="project-info">
-                       <h4 class="h5">Date</h4> 
+                       <h4 class="h5">Date</h4>
                        <div class="empty-space h10-xs"></div>
-                       <span>05/10/2017</span> 
+                       <span>05/10/2017</span>
                        <div class="empty-space h60-md h30-xs"></div>
                     </div>
                 </div>
@@ -244,11 +94,11 @@
                                <div class="simple-text sm">
                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vitae cumque, saepe incidunt obcaecati consectetur. Eligendi natus sint deserunt adipisci, aspernatur voluptates corporis! </p>
                                </div>
-                          </div> 
+                          </div>
                       </div>
                   </div>
               </div>
-              <div class="empty-space h30-xs h65-md"></div>    
+              <div class="empty-space h30-xs h65-md"></div>
         </div>
         <div class="detail-block">
               <div class="image">
@@ -266,11 +116,11 @@
                                 <div class="simple-text sm">
                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vitae cumque, saepe incidunt obcaecati consectetur. Eligendi natus sint deserunt adipisci, aspernatur voluptates corporis! </p>
                                </div>
-                          </div> 
+                          </div>
                       </div>
                   </div>
               </div>
-              <div class="empty-space h30-xs h65-md"></div>    
+              <div class="empty-space h30-xs h65-md"></div>
         </div>
         <div class="detail-block">
               <div class="image">
@@ -288,11 +138,11 @@
                                 <div class="simple-text sm">
                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vitae cumque, saepe incidunt obcaecati consectetur. Eligendi natus sint deserunt adipisci, aspernatur voluptates corporis! </p>
                                </div>
-                          </div> 
+                          </div>
                       </div>
                   </div>
               </div>
-              <div class="empty-space h30-xs h65-md"></div>    
+              <div class="empty-space h30-xs h65-md"></div>
         </div>
         <div class="detail-block">
               <div class="image">
@@ -310,14 +160,14 @@
                                 <div class="simple-text sm">
                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vitae cumque, saepe incidunt obcaecati consectetur. Eligendi natus sint deserunt adipisci, aspernatur voluptates corporis! </p>
                                </div>
-                          </div> 
+                          </div>
                       </div>
                   </div>
-              </div>  
+              </div>
         </div>
         </div>
       </section>
-         
+
       <section class="section">
            <div class="empty-space h30-xs h100-md"></div>
            <div class="detail-pagination">
@@ -328,15 +178,15 @@
                         </span>
                    </span>
                    <span class="vertical-align full">
-                      <h5 class="h5 white">STUDIO PHOTO SHOOTING</h5> 
+                      <h5 class="h5 white">STUDIO PHOTO SHOOTING</h5>
                         <span class="cat-text white-70">
                             hall room
-                        </span> 
+                        </span>
                    </span>
                </a>
                <div class="detail-nav-link">
-                  <a href="portfolio.html" class="all-projects"><i class="fa fa-th"></i></a> 
-               </div> 
+                  <a href="portfolio.html" class="all-projects"><i class="fa fa-th"></i></a>
+               </div>
                <a href="detail.html" class="detail-nav-link">
                    <span class="clip">
                         <span class="bg" style="background-image: url(img/detail_nav_img_1.jpg);">
@@ -344,74 +194,23 @@
                         </span>
                    </span>
                    <span class="vertical-align full">
-                      <h5 class="h5 white">asperiores fugit libero</h5> 
+                      <h5 class="h5 white">asperiores fugit libero</h5>
                         <span class="cat-text white-70">
                             hall room
-                        </span> 
+                        </span>
                    </span>
-               </a>    
+               </a>
            </div>
            <div class="clear"></div>
       </section>
-       
-       
-       
-        <!-- footer -->
-        <footer class="footer-black">
-            <div class="container small-sm">
-                <div class="row">
-                    <div class="col-md-3">
-                        <a href="index-2.html"><img src="img/logo-white.png" alt=""></a>
-                        <div class="empty-space h10-xs"></div>
-                        <p>Lorem ipsum dolor sit amet, cset tur adipiscingerat rutrum to the next side</p>
-                    </div>
-                    <div class="empty-space h20-xs h0-md"></div>
-                    <div class="col-md-2">
-                        <h6 class="h7">Address</h6>
-                        <div class="empty-space h10-xs"></div>
-                        <ul>
-                            <li>
-                                <a href="https://www.google.com.ua/maps/@40.7573849,-73.9721243,19z">319 Clematis St.Suite, 100 WPB, FL 33401</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="empty-space h20-xs h0-md"></div>
-                    <div class="col-md-2 col-md-offset-1">
-                        <h6 class="h7">Contact us</h6>
-                        <div class="empty-space h10-xs"></div>
-                        <ul>
-                            <li>
-                                <a href="tel:+380982367536">tel. +38 098 236 75 36</a>
-                            </li>
-                            <li>
-                                <a href="mailto:info@bristol.com">e-mail info@bristol.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="empty-space h20-xs h0-md"></div>
-                    <div class="col-md-3 col-md-offset-1">
-                        <h6 class="h7">Follow us</h6>
-                        <div class="empty-space h15-xs h25-md"></div>
-                        <div class="follow">
-                            <a class="item" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a class="item" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a class="item" href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-                            <a class="item" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a class="item" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="empty-space h25-xs"></div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="copyright">
-                            &copy; 2017 All rights reserved. Development with <span class="fa fa-heart"></span> by <a href="https://themeforest.net/user/unionagency" target="blank">UnionAgency.</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- footer -->
+
+
+
+      <!-- footer -->
+      <?php
+      include "includes/footer.php";
+      ?>
+      <!-- footer -->
 
     </div>
     <!-- content -->
@@ -510,7 +309,7 @@
                        <div class="col-md-12 text-center">
                             <div class="empty-space h30-xs"></div>
                            <a href="#" class="btn-sing-up open-popup" data-rel="3">Sign up now</a>
-                       </div> 
+                       </div>
                     </div>
                 </div>
                 <div class="button-close"></div>
