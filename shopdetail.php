@@ -42,7 +42,7 @@
                 <div class="empty-space h30-xs h60-md"></div>
 
                 <div class="row">
-                    <div class="col-md-9 col-sm-9 pull-right">
+                    <div class="col-md-12 col-sm-12 pull-right">
                         <div class="detail-item">
                             <div class="row">
                                 <div class="col-md-7">
@@ -199,131 +199,6 @@
                                     <div class="empty-space h30-xs h0-sm"></div>
                                 </article>
                             </div>
-                            <div class="col-sm-3">
-                                <a href="#" class="img-hover-2"><img src="img/shop/item-9-md.jpg" alt="" class="img"></a>
-                                <article>
-                                    <div class="empty-space h15-xs"></div>
-                                    <a href="#"><h6 class="h6 hover-1">MINIMALISTIC LAMP</h6></a>
-                                    <div class="empty-space h10-xs"></div>
-                                    <span class="price price-sm">&#36;286<sup>00</sup></span>
-                                    <div class="empty-space h30-xs h0-sm"></div>
-                                </article>
-                            </div>
-                            <div class="col-sm-3">
-                                <a href="#" class="img-hover-2"><img src="img/shop/item-4-md.jpg" alt="" class="img"></a>
-                                <article>
-                                    <div class="empty-space h15-xs"></div>
-                                    <a href="#"><h6 class="h6 hover-1">MINIMALISTIC LAMP</h6></a>
-                                    <div class="empty-space h10-xs"></div>
-                                    <span class="price price-sm">&#36;286<sup>00</sup></span>
-                                    <div class="empty-space h30-xs h0-sm"></div>
-                                </article>
-                            </div>
-                            <div class="col-sm-3">
-                                <a href="#" class="img-hover-2"><img src="img/shop/item-5-md.jpg" alt="" class="img"></a>
-                                <article>
-                                    <div class="empty-space h15-xs"></div>
-                                    <a href="#"><h6 class="h6 hover-1">MINIMALISTIC LAMP</h6></a>
-                                    <div class="empty-space h10-xs"></div>
-                                    <span class="price price-sm">&#36;286<sup>00</sup></span>
-                                    <div class="empty-space h30-xs h0-sm"></div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3">
-                        <div class="shop-form-2">
-
-                            <div class="search">
-                                <div class="input-wrapper search">
-                                    <div class="input-style">
-                                        <input id="inputSearch" name="name" type="text" class="input" required>
-                                        <label for="inputSearch">Search</label>
-                                        <div class="input-icon">
-                                            <i class="fa fa-search" aria-hidden="true"></i>
-                                            <input type="submit" id="searchsubmit" value="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="empty-space h35-xs"></div>
-
-                            <h6 class="h6">FOR WHO</h6>
-                            <div class="empty-space h10-xs"></div>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>For women</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>For men</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>For kids</span>
-                            </label>
-
-                            <div class="empty-space h30-xs h45-md"></div>
-
-                            <h6 class="h6">CATEGORY</h6>
-                            <div class="empty-space h10-xs"></div>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>All</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Curabitur fermentum</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Kitchen furniture</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Room for guest</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Main room</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Bedrooms</span>
-                            </label>
-
-                            <div class="empty-space h30-xs h45-md"></div>
-
-                            <h6 class="h6">PRICE</h6>
-                            <div class="empty-space h30-xs"></div>
-                            <div id="slider-range"></div>
-                            <div class="empty-space h20-xs"></div>
-                            <p>
-                              <label for="amount">price:</label>
-                              <input type="text" id="amount" readonly>
-                            </p>
-
-                            <div class="empty-space h20-xs h35-md"></div>
-
-                            <h6 class="h6">BRANDS</h6>
-                            <div class="empty-space h10-xs"></div>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Black&White</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Zebrano</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Delux</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Restoration Hardware</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Roche Bobois</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Edra</span>
-                            </label>
-                            <label class="checkbox-entry">
-                                <input type="checkbox" /><span>Poliform</span>
-                            </label>
-
-                            <div class="empty-space h50-xs"></div>
-                            <div class="btn-wrap"><a href="#" class="btn-2"><span>clear all filters</span></a></div>
-
                         </div>
                     </div>
                 </div>

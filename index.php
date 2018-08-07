@@ -196,12 +196,12 @@ include_once "includes/header.php";
             <div class="container">
                 <div class="row text-center">
                     <div class="col-xs-12">
-                       <h2 class="h2 white">Antique and Accesories</h2>
+                       <h2 class="h2 white">Our Products</h2>
                     </div>
-                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 white-70">
+                    <!-- <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 white-70">
                         <div class="empty-space h20-xs"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum id metus acestyks velit volutpat posuere</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="empty-space h35-xs h70-md"></div>
@@ -214,61 +214,14 @@ include_once "includes/header.php";
                                     <article>
                                         <a href="#"><h6 class="h6 hover-1">CHAIR WITH OPEN SPACE</h6></a>
                                         <div class="empty-space h5-xs"></div>
-                                        <p>cursus augue tempus consequat mollis</p>
+                                        <p>This is a god product</p>
                                         <div class="empty-space h20-xs"></div>
                                         <span class="price">&#36;286<sup>00</sup></span>
                                         <div class="empty-space h30-xs"></div>
-                                        <a class="img-hover-2" href="#"><img src="img/item-1.png" alt=""></a>
-                                        <div class="empty-space h35-xs"></div>
-                                        <div class="btn-wrap"><a href="#" class="btn-2"><span>read more</span></a></div>
+                                        <a class="img-hover-2" href="#"><img src="img/item-1.png" alt="Product item"></a>
                                     </article>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="design-item text-center">
-                                    <article>
-                                        <a href="#"><h6 class="h6 hover-1">CHAIR WITH OPEN SPACE</h6></a>
-                                        <div class="empty-space h5-xs"></div>
-                                        <p>cursus augue tempus consequat mollis</p>
-                                        <div class="empty-space h20-xs"></div>
-                                        <span class="price">&#36;286<sup>00</sup></span>
-                                        <div class="empty-space h30-xs"></div>
-                                        <a class="img-hover-2" href="#"><img src="img/item-2.png" alt=""></a>
-                                        <div class="empty-space h35-xs"></div>
-                                        <div class="btn-wrap"><a href="#" class="btn-2"><span>read more</span></a></div>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="design-item text-center">
-                                    <article>
-                                        <a href="#"><h6 class="h6 hover-1">CHAIR WITH OPEN SPACE</h6></a>
-                                        <div class="empty-space h5-xs"></div>
-                                        <p>cursus augue tempus consequat mollis</p>
-                                        <div class="empty-space h20-xs"></div>
-                                        <span class="price">&#36;286<sup>00</sup></span>
-                                        <div class="empty-space h30-xs"></div>
-                                        <a class="img-hover-2" href="#"><img src="img/item-3.png" alt=""></a>
-                                        <div class="empty-space h35-xs"></div>
-                                        <div class="btn-wrap"><a href="#" class="btn-2"><span>read more</span></a></div>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="design-item text-center">
-                                    <article>
-                                        <a href="#"><h6 class="h6 hover-1">CHAIR WITH OPEN SPACE</h6></a>
-                                        <div class="empty-space h5-xs"></div>
-                                        <p>cursus augue tempus consequat mollis</p>
-                                        <div class="empty-space h20-xs"></div>
-                                        <span class="price">&#36;286<sup>00</sup></span>
-                                        <div class="empty-space h30-xs"></div>
-                                        <a class="img-hover-2" href="#"><img src="img/item-4.png" alt=""></a>
-                                        <div class="empty-space h35-xs"></div>
-                                        <div class="btn-wrap"><a href="#" class="btn-2"><span>read more</span></a></div>
-                                    </article>
-                                </div>
-                            </div>
+                              </div>
                         </div>
                     </div>
                 </div>
