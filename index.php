@@ -13,7 +13,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="img/favicon.ico" rel="shortcut icon" />
     <link href="../../fonts.googleapis.com/css8b9f.css?family=Hind:300,500,600%7CTitillium+Web%7COswald:700" rel="stylesheet">
-    <title>DRINTERIORS | Welcome</title>
+    <title>Drinteriors | Welcome</title>
 </head>
 <body>
 
@@ -55,7 +55,7 @@ include_once "includes/header.php";
                                 <div class="col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 flex-order-1">
                                     <article class="text-right">
                                         <h1 class="h1" data-swiper-parallax="-800"><span style="color:#a0eb1d;">dr</span>Interiors</h1>
-                                        <p data-swiper-parallax="-600">Curabitur ultricies semper eleifend. Pellentesque molestie purus non something else not tempus bibendum mattis making something</p>
+                                        <p data-swiper-parallax="-800"><strong>We pride ourselves with Integrity | Creativity | Drive | Teamwork.</strong></p>
                                         <div class="btn-wrap" data-swiper-parallax="-400"><a href="about.php" class="btn-2"><span>view more</span></a></div>
                                     </article>
                                     <div class="clear"></div>
@@ -65,7 +65,7 @@ include_once "includes/header.php";
                     </div>
 
                 </div>
-                <div class="swiper-pagination swiper-pagination-black"></div>
+                <!-- <div class="swiper-pagination swiper-pagination-black"></div> -->
             </div>
         </div>
 
@@ -81,9 +81,9 @@ include_once "includes/header.php";
                 <div class="col-xs-12">
                    <h2 class="h2">What we do</h2>
                 </div>
-                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
                     <div class="empty-space h20-xs"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum id metus ac tempus something posuere</p>
+                    <p>Diana Rashid Interiors(drinteriors) came into existence with the aim to touch peoples lives with our allure and innovation and to be the leading and major contender in the field of interior design, construction and real-estate in Kenya</p>
                 </div>
             </div>
             <div class="empty-space h30-xs h65-md"></div>
@@ -95,11 +95,11 @@ include_once "includes/header.php";
                         </a>
                         <div class="article small">
                             <a href="#" class="h4">Office Furniture</a>
-                            <ul>
+                            <!-- <ul>
                                 <li>Quisque with placerat Porttitor nisi felis</li>
                                 <li>Congue in &#38; Tempus anything the best efficitur</li>
                                 <li>Aenean suscipit vestibulum blandit making</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -110,11 +110,11 @@ include_once "includes/header.php";
                         </a>
                         <div class="article small">
                             <a href="#" class="h4">kitchen </a>
-                            <ul>
+                            <!-- <ul>
                                 <li>Aenean suscipit vestibulum blandit making</li>
                                 <li>Quisque with placerat Porttitor nisi felis</li>
                                 <li>Congue in &#38; Tempus anything the best efficitur</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -125,11 +125,11 @@ include_once "includes/header.php";
                         </a>
                         <div class="article small">
                             <a href="#" class="h4">Floor Finishing</a>
-                            <ul>
+                            <!-- <ul>
                                 <li>Congue in &#38; Tempus anything the best efficitur</li>
                                 <li>Aenean suscipit vestibulum blandit making</li>
                                 <li>Nulla consectetur quam mollis scelerisque</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -140,11 +140,11 @@ include_once "includes/header.php";
                         </a>
                         <div class="article small">
                             <a href="#" class="h4">Antique and accesories</a>
-                            <ul>
+                            <!-- <ul>
                                 <li>Congue in &#38; Tempus anything the best efficitur</li>
                                 <li>Aenean suscipit vestibulum blandit making</li>
                                 <li>Nulla consectetur mollis scelerisque</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -155,11 +155,11 @@ include_once "includes/header.php";
                         </a>
                         <div class="article small">
                             <a href="#" class="h4">Painting</a>
-                            <ul>
+                            <!-- <ul>
                                 <li>Quisque with placerat Porttitor nisi felis</li>
                                 <li>Congue in &#38; Tempus anything the best efficitur</li>
                                 <li>Aenean suscipit vestibulum blandit making</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>
@@ -170,11 +170,11 @@ include_once "includes/header.php";
                         </a>
                         <div class="article small">
                             <a href="#" class="h4">Wardrobes</a>
-                            <ul>
+                            <!-- <ul>
                                 <li>Aenean suscipit vestibulum blandit making</li>
                                 <li>Congue in &#38; Tempus anything the best efficitur</li>
                                 <li>Nulla consectetur mollis scelerisque</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                 </div>

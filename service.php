@@ -37,12 +37,12 @@
                                 <div class="col-xs-12">
                                    <h2 class="h1 white sm-sepp">Our services</h2>
                                 </div>
-                                <div class="col-md-12">
+                                <!-- <div class="col-md-12">
                                     <div class="empty-space h20-xs"></div>
                                     <div class="white-70">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum id metus ac tempus something posuere</p>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
 
 
         <section class="section">
-            <div class="empty-space h40-xs h100-md"></div>
+            <!-- <div class="empty-space h40-xs h100-md"></div> -->
             <div class="empty-space h20-xs"></div>
             <div class="container">
                 <div class="row text-center">

@@ -4,7 +4,7 @@
             <div class="col-md-3">
                 <a href="index-2.html"><img src="img/logo-white.png" alt=""></a>
                 <div class="empty-space h10-xs"></div>
-                <p>Lorem ipsum dolor sit amet, cset tur adipiscingerat rutrum to the next side</p>
+                <!-- <p>Lorem ipsum dolor sit amet, cset tur adipiscingerat rutrum to the next side</p> -->
             </div>
             <div class="empty-space h20-xs h0-md"></div>
             <div class="col-md-2">

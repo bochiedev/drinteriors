@@ -1,8 +1,8 @@
 <div class="is-mobile"></div>
 <!-- LOADER -->
-    <div id="loader-wrapper">
+    <!-- <div id="loader-wrapper">
         <div class="loader"></div>
-    </div>
+    </div> -->
 <!--end LOADER -->
 
  <!-- HEADER -->
@@ -18,7 +18,7 @@
                     <li class="active"><a href="index.php"><span>Home</span></a></li>
                     <li><a href="about.php"><span>About us</span></a></li>
                     <li><a href="service.php"><span>Services</span></a></li>
-                    <li ><a href="portfolio.php">Portfolio</a></li>
+                    <li ><a href="portfolio.php"><span>Portfolio</span></a></li>
                     <!-- <li>
                         <a href="portfolio.php"><span>Portfolio</span></a>
                         <span></span>
@@ -28,7 +28,7 @@
                             <li><a href="detail.html">Portfolio detail</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="shop.php">Shop</a></li>
+                    <li><a href="shop.php"><span>Shop</span></a></li>
                     <li><a href="contact.php"><span>Contact us</span></a></li>
                     <li><a class="login hover-1 open-popup" data-rel="2"><span>Admin</span></a></li>
 
