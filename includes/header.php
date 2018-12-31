@@ -10,15 +10,17 @@
     <div class="wide-container-fluid">
         <div class="row">
             <div class="col-xs-2">
-                <a class="logo" href="index.html"><img src="img/logo.png" alt="" /></a>
+                <!-- <a class="logo" href="index.html"><img src="img/logo.png" alt="" /></a> -->
+                <a class="logo" href="index.php"><span class="h4"><b style="color:#b0ee4a; font-weight:bold;">dr</b>Interiors</span></a>
+
             </div>
             <div class="col-xs-10 text-right">
 
                 <ul class="header-menu">
-                    <li class="active"><a href="index.php"><span>Home</span></a></li>
-                    <li><a href="about.php"><span>About us</span></a></li>
-                    <li><a href="service.php"><span>Services</span></a></li>
-                    <li ><a href="portfolio.php"><span>Portfolio</span></a></li>
+                    <li <?php if (strpos($_SERVER['PHP_SELF'], 'index.php')) echo 'class="active"';?>><a href="index.php"><span>Home</span></a></li>
+                    <li <?php if (strpos($_SERVER['PHP_SELF'], 'about.php')) echo 'class="active"';?>><a href="about.php"><span>About us</span></a></li>
+                    <li <?php if (strpos($_SERVER['PHP_SELF'], 'service.php')) echo 'class="active"';?>><a href="service.php"><span>Services</span></a></li>
+                    <li <?php if (strpos($_SERVER['PHP_SELF'], 'portfolio.php')) echo 'class="active"';?>><a href="portfolio.php"><span>Portfolio</span></a></li>
                     <!-- <li>
                         <a href="portfolio.php"><span>Portfolio</span></a>
                         <span></span>
@@ -28,8 +30,8 @@
                             <li><a href="detail.html">Portfolio detail</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="shop.php"><span>Shop</span></a></li>
-                    <li><a href="contact.php"><span>Contact us</span></a></li>
+                    <li <?php if (strpos($_SERVER['PHP_SELF'], 'shop.php')) echo 'class="active"';?>><a href="shop.php"><span>Shop</span></a></li>
+                    <li <?php if (strpos($_SERVER['PHP_SELF'], 'contact.php')) echo 'class="active"';?>><a href="contact.php"><span>Contact us</span></a></li>
                     <li><a class="login hover-1 open-popup" data-rel="2"><span>Admin</span></a></li>
 
                 </ul>
@@ -40,11 +42,11 @@
                     <span></span>
                     <span></span>
                 </div>
-                 <div class="hamburger-icon-2">
+                 <!-- <div class="hamburger-icon-2">
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -63,10 +65,10 @@
                 <div class="col-md-2 col-md-offset-5">
 
                     <ul>
-                        <li ><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About us</a></li>
-                        <li><a href="service.php">Services</a></li>
-                        <li ><a href="portfolio.php">Portfolio</a></li>
+                        <li <?php if (strpos($_SERVER['PHP_SELF'], 'index.php')) echo 'class="active"';?>><a href="index.php">Home</a></li>
+                        <li <?php if (strpos($_SERVER['PHP_SELF'], 'about.php')) echo 'class="active"';?>><a href="about.php">About us</a></li>
+                        <li <?php if (strpos($_SERVER['PHP_SELF'], 'service.php')) echo 'class="active"';?>><a href="service.php">Services</a></li>
+                        <li  <?php if (strpos($_SERVER['PHP_SELF'], 'portfolio.php')) echo 'class="active"';?>><a href="portfolio.php">Portfolio</a></li>
                         <!-- <li class="dropdown-plus">
                             <a href="portfolio.html">Portfolio</a>
                             <span></span>
@@ -75,8 +77,8 @@
                                 <li><a href="portfolio_full.html">Portfolio #2</a></li>
                             </ul>
                         </li> -->
-                        <li><a href="shop.php">Shop</a></li>
-                        <li><a href="contact.php">Contact us</a></li>
+                        <li <?php if (strpos($_SERVER['PHP_SELF'], 'shop.php')) echo 'class="active"';?>><a href="shop.php">Shop</a></li>
+                        <li <?php if (strpos($_SERVER['PHP_SELF'], 'contact.php')) echo 'class="active"';?>><a href="contact.php">Contact us</a></li>
                         <li><a class="login hover-1 open-popup" data-rel="2"><span>Admin</span></a></li>
                     </ul>
                 </div>

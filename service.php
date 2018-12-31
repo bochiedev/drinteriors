@@ -23,7 +23,7 @@
     <!-- content -->
     <div id="content">
 
-          <div class="full-height-banner">
+          <div class="full-height-banner" style="height:300px!important; min-height:300px!important;">
             <div class="clip">
                 <div class="bg fix" style="background-image: url(img/service_bg.jpg);">
                     <div class="bg-layer-5"></div>
@@ -35,7 +35,7 @@
                         <div class="col-md-6 col-md-offset-3">
                             <div class="row text-center">
                                 <div class="col-xs-12">
-                                   <h2 class="h1 white sm-sepp">Our services</h2>
+                                   <h2 class="h2 white sm-sepp">Our services</h2>
                                 </div>
                                 <!-- <div class="col-md-12">
                                     <div class="empty-space h20-xs"></div>
@@ -52,19 +52,20 @@
 
 
 
+          <div class="empty-space h25-xs h35-md"></div>
 
         <section class="section">
             <!-- <div class="empty-space h40-xs h100-md"></div> -->
-            <div class="empty-space h20-xs"></div>
+            <!-- <div class="empty-space h20-xs"></div> -->
             <div class="container">
                 <div class="row text-center">
                     <div class="col-xs-12">
                        <h2 class="h2">What we do</h2>
                     </div>
-                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+                    <!-- <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
                         <div class="empty-space h20-xs"></div>
                         <p>Lorem ipsum dolor amet, consectetur adipiscing elit elemen tum iesded metus ac tempus mauris something volutpat</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="empty-space h30-xs h60-md"></div>
                 <div class="row">

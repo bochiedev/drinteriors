@@ -23,38 +23,39 @@
     <!-- content -->
     <div id="content">
 
-          <div class="full-height-banner">
-            <div class="clip">
-                <div class="bg fix" style="background-image: url(img/contact_bg.jpg);">
-                    <div class="bg-layer-5"></div>
-                </div>
+      <div class="full-height-banner" style="height:300px!important; min-height:300px!important;">
+        <div class="clip">
+            <div class="bg fix" style="background-image: url(img/service_bg.jpg);">
+                <div class="bg-layer-5"></div>
             </div>
-            <div class="vertical-align full">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="row text-center">
-                                <div class="col-xs-12">
-                                   <h2 class="h1 white sm-sepp">Contact us</h2>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="empty-space h20-xs"></div>
-                                    <div class="white-70">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum id metus ac tempus something posuere</p>
-                                    </div>
-                                </div>
+        </div>
+        <div class="vertical-align full">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="row text-center">
+                            <div class="col-xs-12">
+                               <!-- <h2 class="h1 white sm-sepp">Contact Us</h2> -->
+                               <h2 class="h2 white sm-sepp">WE LOVE <span class="fa fa-heart"></span> THE DM</h2>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-          </div>
+        </div>
+      </div>
+
+
+
+      <div class="empty-space h25-xs h35-md"></div>
+
 
         <section class="section">
             <div class="container">
-               <div class="empty-space h40-xs h100-md"></div>
-           <div class="empty-space h20-xs"></div>
-            <div class="row text-center">
+               <!-- <div class="empty-space h40-xs h100-md"></div> -->
+           <!-- <div class="empty-space h20-xs"></div> -->
+            <!-- <div class="row text-center">
                 <div class="col-xs-12">
                    <h2 class="h2">WE LOVE <span class="fa fa-heart"></span> THE DM</h2>
                 </div>
@@ -62,8 +63,8 @@
                     <div class="empty-space h20-xs"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum id metus ac tempus something posuere</p>
                 </div>
-            </div>
-            <div class="empty-space h30-xs h65-md"></div>
+            </div> -->
+            <!-- <div class="empty-space h30-xs h65-md"></div> -->
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="project-info">
@@ -141,12 +142,12 @@
             <div class="empty-space h20-xs"></div>
         </section>
 
-        <div class="map">
+        <!-- <div class="map">
         <div id="map-canvas" class="map-item" data-lat="-1.28333" data-lng="36.81667" data-zoom="15" data-style="style-1" data-marker="img/marker.png"></div>
             <div class="addresses-block">
                 <a data-lat="-1.28333" data-lng="36.81667" data-string="1. Find us here"></a>
             </div>
-        </div>
+        </div> -->
 
         <!-- footer -->
         <?php

@@ -2,7 +2,9 @@
     <div class="container small-sm">
         <div class="row">
             <div class="col-md-3">
-                <a href="index-2.html"><img src="img/logo-white.png" alt=""></a>
+                <!-- <a href="index-2.html"><img src="img/logo-white.png" alt=""></a> -->
+                <a class="logo" href="index.html"><span class="h4" style="color: rgba(255,255,255,0.7);"><b style="color:#b0ee4a; font-weight:bold;">dr</b>Interiors</span></a>
+
                 <div class="empty-space h10-xs"></div>
                 <!-- <p>Lorem ipsum dolor sit amet, cset tur adipiscingerat rutrum to the next side</p> -->
             </div>

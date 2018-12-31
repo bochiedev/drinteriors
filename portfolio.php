@@ -1,3 +1,6 @@
+<?php
+require '_includes/db_inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,23 +27,39 @@
   ?>
     <!-- content -->
     <div id="content">
-
-       <section class="section">
-       <div class="empty-space h90-xs h100-md"></div>
-       <div class="empty-space h0-xs h80-md"></div>
+      <div class="full-height-banner" style="height:300px!important; min-height:300px!important;">
+        <div class="clip">
+            <div class="bg fix" style="background-image: url(img/service_bg.jpg);">
+                <div class="bg-layer-5"></div>
+            </div>
+        </div>
+        <div class="vertical-align full">
             <div class="container">
-            <div class="row text-center">
-                <div class="col-xs-12">
-                   <h2 class="h1-2">Our Portfolio</h2>
-                </div>
-                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-                    <div class="empty-space h20-xs"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit cras elementum metus an mauris egetyps velitys volutpat</p>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="row text-center">
+                            <div class="col-xs-12">
+                               <h2 class="h2 white sm-sepp">Our Portfolio</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
+        </div>
+      </div>
+
+
+
+      <div class="empty-space h25-xs h35-md"></div>
+
+    <section class="section">
+        <!-- <div class="empty-space h40-xs h100-md"></div> -->
+        <!-- <div class="empty-space h20-xs"></div> -->
+
+
+
             <div class="container-fluid">
-            <div class="empty-space h25-xs h50-sm"></div>
+            <!-- <div class="empty-space h25-xs h50-sm"></div>
             <div class="sorting-menu">
                 <div class="button-drop">
                    <a href="#">
@@ -56,54 +75,67 @@
                     <li data-filter=".category-3" data-name="User Expirience">User Expirience</li>
                     <li data-filter=".category-4" data-name="Branding">Branding</li>
                 </ul>
-            </div>
+            </div> -->
             <div class="empty-space h50-xs h50-sm"></div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="grid">
                         <div class="grid-sizer"></div>
+
+                        <?php
+
+                        $result_per_page = 1 ;
+                        // $query = 'SELECT * FROM portfolio ORDER by id ASC';
+                        $query = "SELECT portfolio.name,portfolio.image, category.category_name as category FROM portfolio LEFT JOIN category ON portfolio.category = category.id";
+
+
+                        $result = mysqli_query($connection, $query);
+                        $number_of_result = mysqli_num_rows($result);
+                        $number_of_pages = ceil($number_of_result/$result_per_page) ;
+
+                        ?>
+
+                        <?php
+
+                        if(!isset($_GET['page'])){
+
+                          $page = 1;
+
+                        }else{
+                          $page = $_GET['page'];
+                        }
+
+                        $this_page_first_result = ($page-1)*$result_per_page;
+                        $query = "SELECT portfolio.name,portfolio.image, category.category_name as category
+                        FROM portfolio LEFT JOIN category ON portfolio.category = category.id LIMIT " . $this_page_first_result . ',' . $result_per_page;
+
+                        // $query = "SELECT * FROM portfolio LIMIT " . $this_page_first_result . ',' . $result_per_page;
+                        $result = mysqli_query($connection, $query);
+                        $number_of_result = mysqli_num_rows($result);
+
+                        if($result){
+                          if($number_of_result>0){
+                            while($product = mysqli_fetch_assoc($result)){
+                              ?>
+
                         <div class="grid-item category-3 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_1.jpg" class="lightbox"><img src="img/portfolio_full_img_1.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
+                            <a href=<?php echo "img/".$product['image'].""; ?> class="lightbox"><img src=<?php echo "img/".$product['image'].""; ?> alt=""></a>
+                            <a class="h6" href="detail.html"><?php echo $product['name']; ?></a>
+                            <p><?php echo $product['category']; ?></p>
                         </div>
-                        <div class="grid-item category-1 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_2.jpg" class="lightbox"><img src="img/portfolio_full_img_2.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
-                        </div>
-                        <div class="grid-item category-4 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_3.jpg" class="lightbox"><img src="img/portfolio_full_img_3.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
-                        </div>
-                        <div class="grid-item category-2 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_4.jpg" class="lightbox"><img src="img/portfolio_full_img_4.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
-                        </div>
-                        <div class="grid-item category-3 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_5.jpg" class="lightbox"><img src="img/portfolio_full_img_5.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
-                        </div>
-                        <div class="grid-item category-1 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_6.jpg" class="lightbox"><img src="img/portfolio_full_img_6.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
-                        </div>
-                         <div class="grid-item category-4 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_7.jpg" class="lightbox"><img src="img/portfolio_full_img_7.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
-                        </div>
-                        <div class="grid-item category-1 w-25 grid-item-full">
-                            <a href="img/portfolio_full_img_8.jpg" class="lightbox"><img src="img/portfolio_full_img_8.jpg" alt=""></a>
-                            <a class="h6" href="detail.html">Studio photo shooting</a>
-                            <p>hall room</p>
-                        </div>
+
+                        <?php
+                      }
+                    }
+                  }
+
+                  ?>
+
+
                     </div>
+
                 </div>
+
             </div>
         </div>
         </section>

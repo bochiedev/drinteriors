@@ -1,3 +1,6 @@
+<?php
+require '_includes/db_inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -209,19 +212,57 @@ include_once "includes/header.php";
                 <div class="swiper-style-2">
                     <div class="swiper-container" data-speed="1000" data-space="0" data-breakpoints="1" data-slides-per-view="4" data-xs-slides="1" data-sm-slides="2" data-md-slides="3">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="design-item text-center">
-                                    <article>
-                                        <a href="#"><h6 class="h6 hover-1">CHAIR WITH OPEN SPACE</h6></a>
-                                        <div class="empty-space h5-xs"></div>
-                                        <p>This is a god product</p>
-                                        <div class="empty-space h20-xs"></div>
-                                        <span class="price">&#36;286<sup>00</sup></span>
-                                        <div class="empty-space h30-xs"></div>
-                                        <a class="img-hover-2" href="#"><img src="img/item-1.png" alt="Product item"></a>
-                                    </article>
-                                </div>
-                              </div>
+
+                                <?php
+
+                                $result_per_page = 4 ;
+                                $query = 'SELECT * FROM shop ORDER by id ASC LIMIT 4';
+                                $result = mysqli_query($connection, $query);
+                                $number_of_result = mysqli_num_rows($result);
+                                $number_of_pages = ceil($number_of_result/$result_per_page) ;
+
+                                ?>
+
+                                <?php
+
+                                if(!isset($_GET['page'])){
+
+                                  $page = 1;
+
+                                }else{
+                                  $page = $_GET['page'];
+                                }
+
+                                $this_page_first_result = ($page-1)*$result_per_page;
+                                $query = "SELECT * FROM shop LIMIT 4";
+                                $result = mysqli_query($connection, $query);
+                                $number_of_result = mysqli_num_rows($result);
+
+                                if($result){
+                                  if($number_of_result>0){
+                                    while($product = mysqli_fetch_assoc($result)){
+                                      ?>
+                                      <div class="swiper-slide">
+                                        <div class="design-item text-center">
+                                          <article>
+                                              <a href="#"><h6 class="h6 hover-1"><? echo strtoupper($product['name']) ?></h6></a>
+                                              <!-- <div class="empty-space h5-xs"></div>
+                                              <p><? echo $product['description'] ?></p>
+                                              <div class="empty-space h20-xs"></div> -->
+                                              <span class="text-sm">Kes <? echo number_format($product['price']) ?></span>
+                                              <div class="empty-space h30-xs"></div>
+                                              <a class="img-hover-2" href="#"><img src="img/item-1.png" alt="Product item"></a>
+
+
+                                            </article>
+                                          </div>
+                                        </div>
+                                      <?php
+                                    }
+                                  }
+                                }
+
+                                ?>
                         </div>
                     </div>
                 </div>
